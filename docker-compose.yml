@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  app-a:
+    build: ./app-a
+  app-b:
+    build: ./app-b
+  reverse-proxy:
+    build: ./reverse-proxy
+    ports:
+      - "8080:80"
