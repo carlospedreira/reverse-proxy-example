@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app-a", "app-a\app-a.csproj", "{012C9F3A-1883-4C24-A77A-75B6988520F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app-b", "app-b\app-b.csproj", "{793E7215-26D7-4BE8-AA0D-67EAFB0CDC9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reverse-proxy", "reverse-proxy\reverse-proxy.csproj", "{768F4254-1AF1-45BE-B6F6-80AC78C73F45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{012C9F3A-1883-4C24-A77A-75B6988520F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012C9F3A-1883-4C24-A77A-75B6988520F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012C9F3A-1883-4C24-A77A-75B6988520F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012C9F3A-1883-4C24-A77A-75B6988520F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793E7215-26D7-4BE8-AA0D-67EAFB0CDC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793E7215-26D7-4BE8-AA0D-67EAFB0CDC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793E7215-26D7-4BE8-AA0D-67EAFB0CDC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793E7215-26D7-4BE8-AA0D-67EAFB0CDC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768F4254-1AF1-45BE-B6F6-80AC78C73F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768F4254-1AF1-45BE-B6F6-80AC78C73F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768F4254-1AF1-45BE-B6F6-80AC78C73F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768F4254-1AF1-45BE-B6F6-80AC78C73F45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EF45DA8-7C2A-4325-B47E-60367F066DA8}
+	EndGlobalSection
+EndGlobal
